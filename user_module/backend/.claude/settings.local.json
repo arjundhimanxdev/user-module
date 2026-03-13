@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/code/Arjun_Projects/frontend/**)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

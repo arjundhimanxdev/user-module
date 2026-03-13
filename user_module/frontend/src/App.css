@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a1a2e;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #16213e;
+}
+
+.user-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.user-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.user-form input:focus {
+  outline: none;
+  border-color: #4361ee;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.form-buttons button[type="submit"] {
+  background: #4361ee;
+  color: #fff;
+}
+
+.form-buttons button[type="submit"]:hover {
+  background: #3a56d4;
+}
+
+.btn-cancel {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.btn-cancel:hover {
+  background: #ccc;
+}
+
+.user-list {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #4361ee;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f8f9ff;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit {
+  padding: 6px 14px;
+  background: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-edit:hover {
+  background: #e0a800;
+}
+
+.btn-delete {
+  padding: 6px 14px;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-delete:hover {
+  background: #c5303c;
+}
